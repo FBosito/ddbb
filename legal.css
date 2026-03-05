@@ -1,0 +1,108 @@
+/* ============================================
+   LEGAL PAGES (Impressum & Datenschutz)
+   ============================================ */
+
+.legal-page {
+    padding-top: 120px;
+    padding-bottom: 4rem;
+    min-height: 80vh;
+}
+
+.legal-page h1 {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.legal-subtitle {
+    color: var(--grey-light);
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.legal-section {
+    margin-bottom: 2.5rem;
+}
+
+.legal-section h2 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.legal-section h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+}
+
+.legal-section p {
+    color: var(--grey-light);
+    line-height: 1.8;
+    margin-bottom: 0.8rem;
+    font-size: 0.92rem;
+}
+
+.legal-section a {
+    color: var(--genz-primary);
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.legal-section a:hover {
+    border-bottom-color: var(--genz-primary);
+}
+
+.legal-section ul {
+    list-style: none;
+    margin: 0.8rem 0;
+    padding: 0;
+}
+
+.legal-section ul li {
+    color: var(--grey-light);
+    font-size: 0.92rem;
+    line-height: 1.8;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.legal-section ul li::before {
+    content: '-';
+    position: absolute;
+    left: 0;
+    color: var(--grey-light);
+}
+
+.legal-updated {
+    color: var(--grey-light);
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-legal {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-legal a {
+    font-size: 0.8rem;
+    color: var(--grey-light);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: color 0.3s ease;
+}
+
+.footer-legal a:hover {
+    color: var(--white);
+}
